@@ -55,7 +55,7 @@
         project: "{{ item.0.name }}"
         region: "{{ item.1 }}"
         auth_kind: serviceaccount
-        service_account_file: "{{ item.0.service_account }}"
+#        service_account_file: "{{ item.0.service_account }}"
       loop: "{{ gcp_projects | product(gcp_regions) | list }}"
       register: subnet_results
       failed_when: false

@@ -12,6 +12,7 @@
     - vars/projects.yml
     - vars/region_map.yml
     - vars/gcp_service_accounts.yml
+    
   vars:
     report_output_dir: "/tmp/gcp_ip_report"
 
